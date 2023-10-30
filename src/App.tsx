@@ -1,15 +1,8 @@
-import { Box } from "@mui/material";
-
-
+import { Box } from '@mui/material';
+import Router from './routes/sections';
 
 function App() {
-
-
-  return (
-<Box>
-    hello world
-</Box>
-  );
+  return <Router />;
 }
 
 export default App;
